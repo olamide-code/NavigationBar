@@ -1,0 +1,178 @@
+*
+{
+   
+    justify-content: space-between;
+    
+}
+.footer
+{
+   
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.footer h4
+{
+    color:#ff004f;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 45px;
+}
+ 
+.foot 
+{
+    display: flex;
+    margin: 20px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+i
+{
+    font-size: 25px;
+    margin-top: 20px;
+    transition: transform 1s;
+    color: aliceblue;
+    margin-left: 30px;
+
+}
+
+ul li 
+{
+   
+    display: flex;
+    color: aliceblue;
+}
+
+ul li a 
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
+    margin: 5px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+span{
+    color: #ff004f;
+}
+
+h2
+{
+    color: olivedrab;
+    opacity: .4;
+    text-align: center;
+    border:2px solid #fff;
+    border-radius: 10px;
+
+}
+
+
+p 
+{
+    color: aliceblue;
+}
+input 
+{
+    margin-left: 30px;
+    text-align: center;
+    height:5vh;
+    width:250px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    outline: none;
+}
+button
+{
+    margin-left: 30px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    height: 4vh;
+    border: none;
+    width:50%;
+    margin-top: 10px;
+
+
+}
+
+i:hover 
+{
+    color:#ff004f;
+    transform: translateY(-6px);
+    
+}
+
+button:hover 
+{
+    color: #fff;
+    background-color: #ff004f;
+}
+
+
+h4::before
+{
+content: " " ;
+height: 2px;
+width: 75px;
+background-color: whitesmoke;
+position: absolute;
+top: 75px;
+}
+
+
+@media only screen and (max-width: 660px)
+{
+       
+    h2
+    {
+        color: olivedrab;
+        opacity: .4;
+        text-align: center;
+        border:2px solid #fff;
+        border-radius: 10px;
+    
+    }
+    span{
+        color: #ff004f;
+    }
+
+
+    .footer
+{
+   
+    display: block;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.foot 
+{
+    display: block;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+i{
+    font-size: 25px;
+    margin-top: 20px;
+    transition: transform 1s;
+    color: aliceblue;
+    margin-left: 30px;
+
+}
+
+}
+
+
+
